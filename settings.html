@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template Four</title>
+
+    
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome File -->
+    <link rel="stylesheet" href="css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&#038;display=swap" rel="stylesheet" /> 
+</head>
+<body>
+
+    <div class="mainPage d-f">
+        <!-- Start SideBar -->
+        <div class="sidebar pad-15 ">
+            
+            <div class="logo txt-c pos-r marg-b50">
+                <a href="index.html"><h2>Orca</h2></a>
+            </div>
+
+            <ul>
+                <li>
+                    <a href="index.html" >
+                        <i class="fa-regular fa-chart-bar fa-fw"></i>
+                        <span class="hide-moblie">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="settings.html" class="active">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="hide-moblie">Settings</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="hide-moblie">Profile</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="Projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="hide-moblie">Projects</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="hide-moblie">Courses</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="hide-moblie">Files</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="hide-moblie">Friends</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="hide-moblie">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End SideBar -->
+
+        <!-- Start All Content -->
+        <div class="settings page-content over-hidden">
+        <!-- End All Content -->
+        
+
+
+            <!-- Start Head Content -->
+            <div class="head-content bag-wt pad-20 d-f just-bet">
+
+                <div class="search pos-r">
+                    <input type="search" class="bo-r10 pad-15"  placeholder="Type A Keyword">
+                </div>
+
+                <div class="notif-profile flx-center-all gp10">
+                    <div class="notifications pos-r">
+                        <a href="friends.html"><i class="fa-regular fa-bell fa-lg"></i></a>
+                    </div>
+                    <a href="profile.html"><img src="images/avatar.png" alt="Profile"></a>
+                </div>
+            </div>
+            <!-- End Head Content -->
+
+
+
+            <!-- Start title Content -->
+            <h1 class="pos-r">Settings</h1>
+            <!-- End title Content -->
+
+            <!-- Start Setting  -->
+            <div class="settings-body-content grid450-gap20 marg-20 over-hidden">
+
+
+                <!--Start Site Control  -->
+                <div class="site-control card">
+                    <h2 class="font-25 marg-0 marg-b15">Site Control</h2>
+                    <p class="c-grey font-15 marg-0">Control The Website If There Is Maintenance</p>
+                    
+                    <div class="control d-f just-bet align-cen">
+                        <div class="info">
+                            <h3 class="font-20 font-w500 marg-0 marg-b15 marg-t20">Website Control</h3>
+                            <p class="c-grey font-15 marg-0">Open/Close Website And Type The Reason</p>
+                        </div> 
+                        <label>
+                            <input class="toggle-checkbox" type="checkbox" checked>
+                            <div class="toggle-switch"></div>
+                        </label>
+                    </div>
+
+                    <textarea placeholder="Close Message content"></textarea>
+                </div>
+                <!--End Site Control  -->
+
+
+
+                <!-- Start General Info -->
+                <div class="general-info card">
+                    <h2 class="font-25 marg-0 marg-b15">General Info</h2>
+                    <p class="c-grey font-15 marg-0 marg-b30 ">General Information About Your Account</p>
+
+                    <form>
+                        <label for="FName" class="d-b marg-b5 c-grey font-15 "  >First Name</label>
+                        <input type="text" placeholder="First Name" id="FName" class="d-b marg-b15 full-width pad-10 bo-r5 outline-none bord">
+                        <label for="LName" class="d-b marg-b5 c-grey font-15 " >Last Name</label>
+                        <input type="text" placeholder="Last Name" id="LName" class="d-b marg-b15 full-width pad-10 bo-r5 outline-none bord">
+
+                        <label for="EMail" class="d-b marg-b5 c-grey font-15 " >Email</label>
+                        <div class="email pos-r d-f just-bet align-cen">
+                            <input type="text" placeholder="youssef_22@Orca.com" disabled id="EMail" class="d-b full-width pad-10 bo-r5 outline-none bord">
+                            <input type="button" value="Change">
+                        </div>
+
+                    </form>
+                </div>
+                <!-- End General Info -->
+
+
+
+
+
+
+
+                <!--Start Security Info  -->
+                <div class="security-info card">
+                    <h2 class="font-25 marg-0 marg-b15">Security Info</h2>
+                    <p class="c-grey font-15 marg-0 marg-b30 ">Security Information About Your Account</p>
+                    
+                    <div class="box d-f just-bet align-cen  bord-b">
+                        <div class="info">
+                            <h3 class="marg-0 marg-b10 font-w500 font-17">Password</h3>
+                            <p class="c-grey font-15 marg-0 marg-b30 ">Last Change On 25/10/2021</p>
+                        </div>
+
+                        <a class="button-data bag-blue c-white" href="">Change</a>
+                    </div>
+
+                    <div class="box d-f just-bet align-cen  bord-b marg-t15">
+                        <div class="info">
+                            <h3 class="marg-0 marg-b10 font-w500 font-17">Two-Factor Authentication</h3>
+                            <p class="c-grey font-15 marg-0 marg-b30 ">Enable/Disable The Feature</p>
+                        </div>
+                        <label>
+                            <input class="toggle-checkbox" type="checkbox" checked>
+                            <div class="toggle-switch"></div>
+                        </label>
+
+
+                    </div>
+
+                    <div class="box d-f just-bet align-cen  marg-t15">
+                        <div class="info">
+                            <h3 class="marg-0 marg-b10 font-w500 font-17">Devices</h3>
+                            <p class="c-grey font-15 marg-0 marg-b30 ">Check The Login Devices List</p>
+                        </div>
+
+                        <a class="button-data bag-eee c-black" href="">Devices</a>
+                    </div>
+                    
+                </div>
+                <!--End Security Info  -->
+
+
+
+
+
+
+
+
+                <!-- Start Social Info -->
+                 <div class="social-info card">
+                    <h2  class="font-25 marg-0 marg-b15">Social Info</h2>
+                    <p class="c-grey font-15 marg-0 marg-b30 ">Security Information About Your Account</p>
+
+                    <form>
+
+                        <div class="box d-f  bag-eee bord bo-r10 marg-b15">
+                            <i class="fa-brands fa-twitter pad-15 flx-center-all " ></i>
+                            <input type="text" placeholder="Twitter handle" class="full-width pad-15 border-none bo-r10 bag-eee">
+                        </div>
+                        <div class="box d-f  bag-eee bord bo-r10 marg-b15">
+                            <i class="fa-brands fa-github pad-15 flx-center-all " ></i>
+                            <input type="text" placeholder="Github Username" class="full-width pad-15 border-none bo-r10 bag-eee">
+                        </div>
+                        <div class="box d-f  bag-eee bord bo-r10 marg-b15">
+                            <i class="fa-brands fa-facebook pad-15 flx-center-all " ></i>
+                            <input type="text" placeholder="Facebook Profile" class="full-width pad-15 border-none bo-r10 bag-eee">
+                        </div>
+                        <div class="box d-f  bag-eee bord bo-r10 marg-b15">
+                            <i class="fa-brands fa-discord pad-15 flx-center-all " ></i>
+                            <input type="text" placeholder="Discord Tag" class="full-width pad-15 border-none bo-r10 bag-eee">
+                        </div>
+                    </form>
+                 </div>
+                <!-- End Social Info -->
+
+
+
+
+
+
+
+                
+
+
+                <!-- Start Widgets Control -->
+                 <div class="widgets-control card">
+                    <h2  class="font-25 marg-0 marg-b15">Widgets Control</h2>
+                    <p class="c-grey font-15 marg-0 marg-b30 ">Show/Hide Widgets</p>
+
+
+                    <div class="control d-f align-cen marg-b20">
+                        <input type="checkbox" id="cbox1" checked>
+                        <label for="cbox1">Quick Draft</label>
+                    </div>
+
+
+                    <div class="control d-f align-cen marg-b20">
+                        <input type="checkbox" id="cbox2">
+                        <label for="cbox2">Yearly Targets</label>
+                    </div>
+
+
+                    <div class="control d-f align-cen marg-b20">
+                        <input type="checkbox" id="cbox3" checked>
+                        <label for="cbox3">Tickets Statistics</label>
+                    </div>
+
+
+                    <div class="control d-f align-cen marg-b20">
+                        <input type="checkbox" id="cbox4" checked>
+                        <label for="cbox4">Latest News</label>
+                    </div>
+
+
+                    <div class="control d-f align-cen marg-b20">
+                        <input type="checkbox" id="cbox5" checked>
+                        <label for="cbox5">Latest Tasks</label>
+                    </div>
+
+
+                    <div class="control d-f align-cen">
+                        <input type="checkbox" id="cbox6" checked>
+                        <label for="cbox6">Top Search Items</label>
+                    </div>
+
+
+
+                 </div>
+                <!-- End Widgets Control -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- Start Backup Manager -->
+                <div class="backup-manager card">
+                    <h2  class="font-25 marg-0 marg-b15">Backup Manager</h2>
+                    <p class="c-grey font-15 marg-0 marg-b30 ">Control Backup Time And Location</p>
+
+                    <div class="box d-f align-cen marg-b20">
+                        <input type="radio" name="time" id="daybox" >
+                        <label for="daybox">Daily</label>
+                    </div>
+
+                     <div class="box d-f align-cen marg-b20">
+                        <input type="radio" name="time" id="weakbox" checked>
+                        <label for="weakbox">Weakly</label>
+                    </div> 
+
+                     <div class="box d-f align-cen  bord-b pad-b20 ">
+                        <input type="radio" name="time" id="monthbox">
+                        <label for="monthbox">Monthly</label>
+                    </div> 
+
+
+                    <div class="container-servers d-f align-cen pad-t20 txt-c block-mobile">
+                        
+                        <input type="radio" name="server" id="serOne">
+
+                        <div class="server full-width bo-r10 pos-r speed marg-r5 ">
+                            <label for="serOne">
+                                <i class="fa-solid fa-cloud marg-b10 marg-t20 "></i>
+                                <p class="marg-0 marg-b15">Nexus</p>
+                            </label>
+                        </div>
+                        
+                        
+                        <input type="radio" name="server" id="serTwo">
+
+                        <div class="server full-width bo-r10 pos-r speed marg-r5">
+                            <label for="serTwo">
+                                <i class="fa-solid fa-cloud marg-b10 marg-t20 "></i>
+                                <p class="marg-0 marg-b15">Nova</p>
+                            </label>
+                        </div>
+                        
+
+                        <input type="radio" name="server" id="serThree" checked>
+
+                        <div class="server full-width bo-r10 pos-r speed marg-r5">
+                            <label for="serThree">
+                                <i class="fa-solid fa-cloud marg-b10 marg-t20 "></i>
+                                <p class="marg-0 marg-b15">Prime</p>
+                            </label>
+                        </div>
+
+                    </div>
+ 
+
+
+
+
+
+
+                        
+
+
+                </div>
+                <!-- End Backup Manager -->
+
+
+
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
